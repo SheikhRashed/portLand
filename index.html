@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portland</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/all.min.css">
+  <link rel="stylesheet" href="/css/slick.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+  
+
+  <style>
+    @media (min-width: 1200px) {
+      .container_lg{
+        max-width: 1400px !important;
+      }
+
+      .container-sm {
+        max-width: 1600px;
+      }
+    }
+    .prev-arrow,
+.next-arrow {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  font-size: 15px;
+  line-height: 37px;
+  color: #fff;
+  position: absolute;
+  transition: all 0.4s linear;
+  text-align: center;
+  cursor: pointer;
+}
+
+.prev-arrow {
+  z-index: 1;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
+}
+.next-arrow {
+  top: 50%;
+  right: 3%;
+  transform: translateY(-50%)
+}
+
+/* Slick Dots */
+
+.slick-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.slick-dots li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: transparent;
+  outline: none;
+}
+
+.slick-dots .slick-active button {
+  background: #c2bcbc;
+}
+.dropdown-toggle {
+  color: white;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  width: .3em;
+  height: .3em;
+  margin: -.3em 0 0 .4em;
+  vertical-align: middle;
+  content: "";
+  border: .3em solid;
+  border-width: 0 .15em .15em 0;
+  transform: rotateZ(45deg)
+}
+
+
+  </style>
+
+</head>
+<body>
+  <!-- Header part start -->
+  <header id="header" class="sticky-top w-100">
+    <nav class="navbar navbar-expand-lg header_top navbar-light">
+      <div class=" container_lg container">
+        <!-- burger icons -->
+        <div class="b-icon mr-3">
+          <img src="/images/hamburger.png" alt="">
+        </div>
+        <a class="navbar-brand mx-3" href="#">
+          <img src="/images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Devices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Delivery & Payment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Guarantee</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav  cart_sign">
+            <li class="mt-2 mr-3">
+              <img src="/images/cart.png" alt="" class="mx-1"> Cart <span class="ml-2">0</span>
+            </li>
+            <li class="">
+              <a href="#" class="myButton">Sign in</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <div class="header_btm">
+    <div class="container">
+      <div class="header_links d-flex">
+       <ul class=" d-flex mr-auto">
+         <li class="">
+           <a class="" href="#">Top Sales</a>
+         </li>
+         <li class="">
+           <a class="" href="#">Brand Focus</a>
+         </li>
+         <li class="">
+           <a class="" href="#">HI-tech</a>
+         </li>
+         <li class="">
+           <a class="" href="#">Bestt Sellers</a>
+         </li>
+         <li class="">
+           <a class="" href="#">Projects</a>
+         </li>
+       </ul>
+       <ul class=" d-flex support">
+         <li class=" active">
+           <a class="" href="#">Support</a>
+         </li>
+         <li class="ml-2">
+           <a class="#" href="#"><i class="fas fa-search "> <input type="text" placeholder="I'm Search for.." class="search"></i></a>
+         </li>
+         
+       </ul>
+      
+      </div>
+     </div>
+  </div>
+  </header>
+  <!-- Header part end -->
+
+
+  <!-- Banner  part start -->
+  <section id="banner">
+    <div class="bnnr_slide">
+      <div class="col-md-12">
+        <div class=" container bnnr_content">
+          <div class="row">
+            <div class="col-md-6 bnnr_text">
+              <h2>iPhone 6 32Gb Black</h2>
+              <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground. </p>
+
+              <div class="bnnr_btn">Buy Now</div>
+            </div>
+            <div class="col-md-6  ">
+              <img src="/images/Items/iphone-cropped.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="container bnnr_content">
+          <div class="row">
+            <div class="col-md-6 bnnr_text">
+              <h2>iPhone 6 32Gb Black</h2>
+              <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground. </p>
+
+              <div class="bnnr_btn">Buy Now</div>
+            </div>
+            <div class="col-md-6  ">
+              <img src="/images/Items/iphone-cropped.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="container bnnr_content">
+          <div class="row">
+            <div class="col-md-6 bnnr_text">
+              <h2>iPhone 6 32Gb Black</h2>
+              <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground. </p>
+
+              <div class="bnnr_btn">Buy Now</div>
+            </div>
+            <div class="col-md-6  ">
+              <img src="/images/Items/iphone-cropped.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="container bnnr_content">
+          <div class="row">
+            <div class="col-md-6 bnnr_text">
+              <h2>iPhone 6 32Gb Black</h2>
+              <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground. </p>
+
+              <div class="bnnr_btn">Buy Now</div>
+            </div>
+            <div class="col-md-6  ">
+              <img src="/images/Items/iphone-cropped.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Banner  part end -->
+
+
+  <!-- Short part start -->
+  <section id="short">
+    <div class="container_lg container">
+      <div class="row">
+        <div class="col-md-3 dv-1">
+          <div class="Matching">
+            <span class="srt mr-3">Sort BY:</span>
+            <div class="btn-group">
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                best match
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <button class="dropdown-item" type="button">Match 1</button>
+                <button class="dropdown-item" type="button">Match 2</button>
+                <button class="dropdown-item" type="button">Match 3</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex">
+          <div class="g-1">
+            <span class="key mr-3">Keywords</span>
+            <input type="text" class="tab" placeholder="Tablet">
+          </div>
+          <div class="g-2">
+            <span class="price">Price</span>
+           <span> <input type="text" class="p-range"></span> - <span><input type="text" class="p-range"></span>
+          </div>
+          <div class="g-3">
+            <!-- Default checked -->
+              <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="defaultChecked2" checked>
+              <label class="custom-control-label" for="defaultChecked2">Free Shipping</label>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3 dv-2">
+          <div class="shiping">
+            <span class="srt">Ship To:</span>
+            <div class="btn-group">
+              <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               USA
+              </button>
+              <div class="dropdown-menu dropdown-menu-right">
+                <button class="dropdown-item" type="button">Action</button>
+                <button class="dropdown-item" type="button">Another action</button>
+                <button class="dropdown-item" type="button">Something else here</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Short part end -->
+
+  <!-- page content part start -->
+  <section id="main_content">
+    <div class="container_lg container">
+      <div class="row">
+        <!-- Left SideBar -->
+        <div class="left_side_bar col-md-3">
+
+          <div class="sidenav">
+            <button class="dropdown-btn">Top Sales
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">Brand Focus
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">HI-Tech
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Cell phones</a>
+              <a href="#">cameras</a>
+              <a href="#">Computeres</a>
+              <a href="#">TV,audio</a>
+              <a href="#">Video games</a>
+            </div>
+            <button class="dropdown-btn">Home
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+            <button class="dropdown-btn">Sale
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+
+          <div class="available my-4">
+            <h3>Availavle</h3>
+
+            <div class="a-t">
+              <div class="row mb-3">
+                <div class="col-8">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline1">In Storage</label>
+                  </div>
+                </div>
+                <div class="col-4"> <span class="ml-5">45</span></div>
+              </div>
+              <div class="row">
+                <div class="col-8">
+                  <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline2" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadioInline2">In Oneline-shop</label>
+                  </div>
+                </div>
+                <div class="col-4"> <span class="ml-5">12</span></div>
+              </div>
+            </div>
+            <div class="row a-c">
+              <div class="col-9"><h4>Brands</h4></div>
+              <div class="col-3"><a>All</a></div>
+            </div>
+            <div class="a-b">
+             <div class="row">
+              <div class="col-8">
+                <div class="custom-control custom-checkbox mb-3">
+                  <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
+                  <label class="custom-control-label" for="customControlValidation1">Apple</label>
+                </div>
+              </div>
+              <div class="col-4"> <span class="ml-5">45</span></div>
+             </div>
+             <div class="row">
+              <div class="col-8">
+                <div class="custom-control custom-checkbox mb-3">
+                  <input type="checkbox" class="custom-control-input" id="customControlValidation2" required>
+                  <label class="custom-control-label" for="customControlValidation2">jbl</label>
+                </div>
+              </div>
+              <div class="col-4"> <span class="ml-5">45</span></div>
+             </div>
+             <div class="row">
+              <div class="col-8">
+                <div class="custom-control custom-checkbox mb-3">
+                  <input type="checkbox" class="custom-control-input" id="customControlValidation3" required>
+                  <label class="custom-control-label" for="customControlValidation3">Bose</label>
+                </div>
+              </div>
+              <div class="col-4"> <span class="ml-5">45</span></div>
+             </div>
+             <div class="row">
+              <div class="col-8">
+                <div class="custom-control custom-checkbox mb-3">
+                  <input type="checkbox" class="custom-control-input" id="customControlValidation4" required>
+                  <label class="custom-control-label" for="customControlValidation4">Nest</label>
+                </div>
+              </div>
+              <div class="col-4"> <span class="ml-5">45</span></div>
+             </div>
+            </div>
+          </div>
+
+          <div class="condition my-4">
+            <div class="row c-title">
+              <div class="col-9"><h4>Condition</h4></div>
+              <div class="col-3"><a href="#">See All</a></div>
+            </div>
+            <div class="rows">
+              <div class="row ">
+                <div class="col-12">
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customControlValidation5" required>
+                    <label class="custom-control-label" for="customControlValidation5">New</label>
+                  </div>
+                </div>
+               </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customControlValidation6" required>
+                    <label class="custom-control-label" for="customControlValidation6">Manufacturer Refurbished</label>
+                  </div>
+                </div>
+               </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customControlValidation7" required>
+                    <label class="custom-control-label" for="customControlValidation7">Seller Refurbished</label>
+                  </div>
+                </div>
+               </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customControlValidation8" required>
+                    <label class="custom-control-label" for="customControlValidation8">Used</label>
+                  </div>
+                </div>
+               </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customControlValidation9" required>
+                    <label class="custom-control-label" for="customControlValidation9">For Parts or not Working</label>
+                  </div>
+                </div>
+               </div>
+            </div>
+          </div>
+
+          <div class="delivery ">
+            <h3>Delivery options</h3>
+            <ul class="optn d-flex">
+              <li> 
+                <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline12" name="customRadioInline12" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline12">Free</label>
+              </div>
+            </li>
+              <li class=""> 
+                <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline13" name="customRadioInline13" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline13">$4,99</label>
+              </div>
+            </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <!-- Gallery  -->
+        <div class="Gallery col-md-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aliquam hic expedita corporis vitae quod dolor incidunt! Expedita ullam totam dolorem incidunt corrupti! Culpa alias officia magni pariatur labore adipisci?</div>
+      </div>
+    </div>
+  </section>
+  <!-- page content part end -->
+
+  <!-- ?? part start -->
+  <!-- ?? part end -->
+
+  <!-- Pagination part start -->
+  <section id="pagination">
+    <div class="container_lg container">
+      <!-- <div class="col-md-3"></div> -->
+      <div class="col-md-6 mx-auto">
+        <ul class="center">
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">6</a></li>
+          <li><a href="#">7</a></li>
+          <li><a href="#">8</a></li>
+      </ul>
+      </div>
+      <!-- <div class="col-md-3"></div> -->
+    </div>
+  </section>
+  <!-- Pagination part end -->
+
+
+  <!-- Best seller part start -->
+  <section id="best_seller">
+    <div class="container_lg container">
+      <h3 class="text-center">Best Sellers</h3>
+      <div class="row ">
+        <div class="col-md-3 best_selleing_product text-center">
+          <div class="p-img img-fluid mb-3">
+            <img src="/images/Items/best-seller-beanie.jpg" alt="">
+          </div>
+          <div class="p-details">
+            <h3>Beanie</h3>
+            <h4>Green</h4>
+            <ul class="price d-flex justify-content-center">
+              <li><del>€39.99</del></li>
+              <li>€29.99</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 best_selleing_product text-center">
+          <div class="p-img img-fluid mb-3">
+            <img src="/images/Items/best-seller-shirt.jpg" alt="">
+          </div>
+          <div class="p-details">
+            <h3>T-Shirt with a print</h3>
+            <h4>Dark Blue</h4>
+            <ul class="price d-flex justify-content-center">
+              <li><del>€29.99</del></li>
+              <li>€19.99</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 best_selleing_product text-center">
+          <div class="p-img img-fluid mb-3">
+            <img src="/images/Items/best-seller-jacket.jpg" alt="Jacket">
+          </div>
+          <div class="p-details">
+            <h3>Pile-lined hooded jacket</h3>
+            <h4>Dark Blue</h4>
+            <ul class="price d-flex justify-content-center">
+              <li><del>€49.99</del></li>
+              <li>€39.99</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 best_selleing_product text-center">
+          <div class="p-img img-fluid mb-3 mt-5 pt-4">
+            <img src="/images/Items/best-seller-trainers.jpg" alt="shoes">
+          </div>
+          <div class="p-details">
+            <h3>trainers</h3>
+            <h4>space grey</h4>
+            <ul class="price d-flex justify-content-center">
+              <li><del>€39.99</del></li>
+              <li>€29.99</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Best seller part end -->
+
+
+  <!-- Testimonial  part start -->
+  <section id="Testimonial">
+    <div class="container_lg container">
+      <div class="s-content text-center">
+        <h2 class="heading">What our Customers have to say</h2>
+        <h4 class="sub-title">Couple of Words About This Stories Section</h4>
+      </div>
+      <div class="row client-list">
+        <div class="col-md-4 client">
+         <div class="c-top d-flex">
+          <div class="client-img mr-3">
+            <img src="/images/customer/customer-1.png" alt="">
+          </div>
+          <div class="client-info">
+            <h5>Celia Fields</h5>
+            <h6>UX Expert</h6>
+          </div>
+         </div>
+         <div class="c-btm">
+           <div class="client-txt">
+            This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon such abstruse matters.
+           </div>
+         </div>
+        </div>
+        <div class="col-md-4 client">
+         <div class="c-top d-flex">
+          <div class="client-img mr-3">
+            <img src="/images/customer/customer-2.png" alt="">
+          </div>
+          <div class="client-info">
+            <h5>Alexander Lee</h5>
+            <h6>Foundert</h6>
+          </div>
+         </div>
+         <div class="c-btm">
+           <div class="client-txt">
+            Looking cautiously round, to ascertain that they were not overheard, the two hags cowered nearer to the fire, and chuckled heartily.
+           </div>
+         </div>
+        </div>
+        <div class="col-md-4 client">
+         <div class="c-top d-flex">
+          <div class="client-img mr-3">
+            <img src="/images/customer/customer-1.png" alt="">
+          </div>
+          <div class="client-info">
+            <h5>Lenora Sandoval</h5>
+            <h6>Product Manager</h6>
+          </div>
+         </div>
+         <div class="c-btm">
+           <div class="client-txt">
+            This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that before!' she said.
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonial  part end -->
+
+  <!-- Footer part start -->
+  <footer id="footer_main">
+    <div class="container_lg container">
+      <div class="row footer-top">
+        <div class="col-md-4"><img src="/images/logo-white.png" alt=""></div>
+        <div class="col-md-4">
+          <ul class="footer-link d-flex">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="social-icon d-flex">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row footer-btm">
+        <div class="col-md-6">
+          <p>She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on a Friday.</p>
+        </div>
+        <div class="col-md-6 ">
+          <ul class="policy d-flex ml-5">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li><a href="#">Terms and conditions</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer part end -->
+
+  <!-- Js file goes here -->
+  <script src="/js/jquery-3.4.1.slim.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/slick.min.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

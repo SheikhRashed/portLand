@@ -1,0 +1,75 @@
+header {
+  background: #ffffff;
+  .header_top {
+    padding:  0px;
+    border-bottom: 2px solid #555;
+    .b-icon {
+      padding: 35px 30px;
+      position: relative;
+      border-right: 2px solid #555;
+    }
+  
+    .navbar-nav {
+  
+      .nav-item {
+        margin: 0px 12px;
+  
+        .nav-link{
+          color: #333;
+          font-size: 14px;
+          font-family: 'PT Sans_Bold';
+        }
+      }
+    }
+  
+    .cart_sign {
+      li {
+        span {
+          padding: 8px;
+          border-radius: 50%;
+          background-color: #e3e8f0;
+          font-size: 14px;
+        }
+        
+        .myButton {
+          @extend %btn;
+        }
+
+      }
+    }
+  }
+
+  .header_btm{
+    padding: 8px 10px;
+    .header_links {
+       ul{
+         margin-left: 0;
+         li {
+           margin: 0px 20px;
+
+           a{
+             font-size: 11pxi;
+             color: #555;
+
+             &:hover {
+               text-decoration: underline;
+               text-decoration-color: rgb(107, 105, 105);
+             }
+             .search {
+               background: transparent;
+               border: none;
+               padding: 6px 2px;
+               outline: none !important;
+               &::placeholder {
+                 padding: 0px 5px;
+               }
+             }
+           }
+         }
+       }
+       .support{
+         margin-right: -140px;
+       }
+    }
+  }
+}

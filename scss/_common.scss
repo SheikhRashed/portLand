@@ -1,0 +1,17 @@
+%btn {
+  background-color:#fff;
+  border-radius:28px;
+  border:1px solid #555;
+  display:inline-block;
+  cursor:pointer;
+  color:#333;
+  font-family:Arial;
+  font-size:14px;
+  text-decoration:none;
+  padding: 6px 24px;
+
+  &:active {
+    position:relative;
+    top:1px;
+  }
+}
