@@ -1,6 +1,8 @@
 @import './fonts';
 
 @import './common';
+
+@import './media';
 /* Basic Css */
 *{
   margin: 0;
@@ -69,43 +71,40 @@ body{
     .container{
       background-color: #fff;
       border-radius: 5px;
-      padding: 26px 18px;
+      padding: 12px 18px;
       position: relative;
 
       .dv-1::before{
         content: '';
         position: absolute;
-        top: -27px;
-        height: 102px;
+        top: 0px;
+        height: 100%;
         width: 2px;
-        left: 220px;
+        right: 0px;
         background-color: #5555;
       }
       .dv-2::after{
         content: '';
         position: absolute;
-        top: -27px;
-        height: 102px;
+        top: 0px;
+        height: 100%;
         width: 2px;
-        right: 285px;
+        left: 0px;
         background-color: #5555;
       }
 
 
       .g-1 {
         display: flex;
-        margin-right: 10px;
+       align-items: center;
         .key {
-          font-size: 13px;
+          font-size: 14px;
           color: #555555;
-          margin-top: 16px;
         }
         .tab{
             border-radius: 25px;
             border: 2px solid #bfc5d4;
-            padding: 20px; 
-            width: 160px;
-            height: 15px; 
+            padding: 6px 8px; 
             outline: none;
            background-color: #f0f2f7;
           &::placeholder {
@@ -114,11 +113,13 @@ body{
         }
       }
       .g-2{
-        margin-top: 10px;
-        margin-right: 15px;
+       display: flex;
+       align-items: center;
+       margin: 0px 26px;
        span {
          &.price {
-           font-size: 13px;
+           font-size: 14px;
+           margin-right: 16px;
          }
        }
 
@@ -153,13 +154,15 @@ body{
       }
 
       .Matching {
-        .srt{
-          margin-top: 10px;
-        }
+        display: flex;
+        align-items: center;
+        
         .btn-group {
            
           .btn {
             color: #1c1e23;
+            padding: 0;
+           margin-left: 120px;
           }
 
           .dropdown-menu {
@@ -185,6 +188,8 @@ body{
 /* LeftSide Bar part start */
 .left_side_bar {
   padding: 0 !important;
+
+  
   /* Fixed sidenav, full height */
 .sidenav {
   z-index: 1;
@@ -211,10 +216,7 @@ body{
   outline: none;
   border-bottom: 1px solid #ddd;
 }
-.dropdown-btn,
-.sidenav a:last-child{
-  // border-bottom: none;
-}
+
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
  background: #f0f2f7;
@@ -236,7 +238,6 @@ body{
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  // background-color: #262626;
   a{
     text-transform: uppercase;
   }
@@ -250,7 +251,6 @@ body{
 
 .available {
   background: #fff;
-  // padding: 10px 12px;
   padding: 10px 0px;
   border-radius: 5px;
 
@@ -286,13 +286,11 @@ body{
 
 .condition {
   background: #fff;
-  // padding: 10px 12px;
   padding: 10px 0px;
   border-radius: 5px;
 
   .c-title {
     padding: 12px 16px;
-    // border-bottom: 1px solid #5555;
     h4{
       font-size: 16px;
     }
@@ -306,13 +304,12 @@ body{
 
 .delivery {
   background: #fff;
-  // padding: 10px 12px;
-  padding: 0px 0px;
   border-radius: 5px;
+  padding: 16px 0px;
   h3{
     font-size: 16px;
-    padding: 0px 12px;
     border-bottom: 1px solid #5555;
+    padding: 6px 8px;
   }
 
   .optn {
@@ -331,9 +328,46 @@ body{
 }
 /* LeftSide Bar part end */
 
-/* ?? part start */
+/* product_gallery part start */
+.product_gallery {
+  .card{
+    height: 100%;
 
-/* ?? part end */
+    .p_name {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .clr {
+      font-size: 16px
+    }
+    .price {
+      font-weight: bold;
+    }
+
+    .card-body{
+      .btn-group {
+
+
+
+        button {
+          padding: 8px 30px;
+          background-color: transparent;
+          outline: none;
+          border: 1px solid #5555;
+        }
+        button:nth-child(1) {
+         border-top-left-radius: 25px;
+         border-bottom-left-radius: 25px;
+        }
+        button:nth-child(2){
+         border-top-right-radius: 25px;
+         border-bottom-right-radius: 25px;
+        }
+      }
+    }
+  }
+}
+/* product_gallery part end */
 
 /* pagination part start */
 #pagination {

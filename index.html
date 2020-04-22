@@ -8,97 +8,10 @@
   <link rel="stylesheet" href="/css/all.min.css">
   <link rel="stylesheet" href="/css/slick.css">
   <link rel="stylesheet" href="/css/style.css">
-
-  
-
-  <style>
-    @media (min-width: 1200px) {
-      .container_lg{
-        max-width: 1400px !important;
-      }
-
-      .container-sm {
-        max-width: 1600px;
-      }
-    }
-    .prev-arrow,
-.next-arrow {
-  width: 40px;
-  height: 40px;
-  background: transparent;
-  border-radius: 50%;
-  border: 1px solid #fff;
-  font-size: 15px;
-  line-height: 37px;
-  color: #fff;
-  position: absolute;
-  transition: all 0.4s linear;
-  text-align: center;
-  cursor: pointer;
-}
-
-.prev-arrow {
-  z-index: 1;
-  top: 50%;
-  left: 3%;
-  transform: translateY(-50%);
-}
-.next-arrow {
-  top: 50%;
-  right: 3%;
-  transform: translateY(-50%)
-}
-
-/* Slick Dots */
-
-.slick-dots {
-  position: absolute;
-  left: 50%;
-  bottom: 10px;
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-.slick-dots li {
-  display: inline-block;
-  padding: 5px;
-}
-
-.slick-dots button {
-  font-size: 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: transparent;
-  outline: none;
-}
-
-.slick-dots .slick-active button {
-  background: #c2bcbc;
-}
-.dropdown-toggle {
-  color: white;
-}
-
-.dropdown-toggle::after {
-  display: inline-block;
-  width: .3em;
-  height: .3em;
-  margin: -.3em 0 0 .4em;
-  vertical-align: middle;
-  content: "";
-  border: .3em solid;
-  border-width: 0 .15em .15em 0;
-  transform: rotateZ(45deg)
-}
-
-
-  </style>
-
 </head>
 <body>
   <!-- Header part start -->
-  <header id="header" class="sticky-top w-100">
+  <header id="header" class="sticky-top">
     <nav class="navbar navbar-expand-lg header_top navbar-light">
       <div class=" container_lg container">
         <!-- burger icons -->
@@ -142,7 +55,7 @@
       </div>
     </nav>
   <div class="header_btm">
-    <div class="container">
+    <div class="container_lg container">
       <div class="header_links d-flex">
        <ul class=" d-flex mr-auto">
          <li class="">
@@ -184,59 +97,15 @@
       <div class="col-md-12">
         <div class=" container bnnr_content">
           <div class="row">
-            <div class="col-md-6 bnnr_text">
+            <div class="col-md-6 bnnr_text  ">
               <h2>iPhone 6 32Gb Black</h2>
               <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground. </p>
 
               <div class="bnnr_btn">Buy Now</div>
             </div>
-            <div class="col-md-6  ">
-              <img src="/images/Items/iphone-cropped.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-12">
-        <div class="container bnnr_content">
-          <div class="row">
-            <div class="col-md-6 bnnr_text">
-              <h2>iPhone 6 32Gb Black</h2>
-              <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground. </p>
-
-              <div class="bnnr_btn">Buy Now</div>
-            </div>
-            <div class="col-md-6  ">
-              <img src="/images/Items/iphone-cropped.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-12">
-        <div class="container bnnr_content">
-          <div class="row">
-            <div class="col-md-6 bnnr_text">
-              <h2>iPhone 6 32Gb Black</h2>
-              <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground. </p>
-
-              <div class="bnnr_btn">Buy Now</div>
-            </div>
-            <div class="col-md-6  ">
-              <img src="/images/Items/iphone-cropped.png" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-12">
-        <div class="container bnnr_content">
-          <div class="row">
-            <div class="col-md-6 bnnr_text">
-              <h2>iPhone 6 32Gb Black</h2>
-              <p>At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground. </p>
-
-              <div class="bnnr_btn">Buy Now</div>
-            </div>
-            <div class="col-md-6  ">
-              <img src="/images/Items/iphone-cropped.png" alt="">
+            <div class="col-md-6 ">
+              <img src="/images/Items/iphone-cropped.png" alt="" class="img-md-none">
+              <!-- <img src="/images/Items/iphone.png" alt="" class="img-sm-block"> -->
             </div>
           </div>
         </div>
@@ -252,7 +121,7 @@
       <div class="row">
         <div class="col-md-3 dv-1">
           <div class="Matching">
-            <span class="srt mr-3">Sort BY:</span>
+            <span class="srt ">Sort BY:</span>
             <div class="btn-group">
               <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 best match
@@ -307,7 +176,7 @@
     <div class="container_lg container">
       <div class="row">
         <!-- Left SideBar -->
-        <div class="left_side_bar col-md-3">
+        <div class="left_side_bar col-lg-3">
 
           <div class="sidenav">
             <button class="dropdown-btn">Top Sales
@@ -491,7 +360,141 @@
         </div>
 
         <!-- Gallery  -->
-        <div class="Gallery col-md-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit aliquam hic expedita corporis vitae quod dolor incidunt! Expedita ullam totam dolorem incidunt corrupti! Culpa alias officia magni pariatur labore adipisci?</div>
+        <div class="Gallery col-lg-9">
+          <!-- 1st Row -->
+          <div class="row product_gallery mx-auto">
+            <div class="col-md-4">
+              <div class="card" style="width: 19rem;">
+                <img class="card-img-top img-fluid" src="/images/Items/product/1.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <h4 class="p_name">Apple TV 32GB</h4>
+                   <h3 class="clr">Black</h3>
+                    <p class="price">$49.99</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 19rem;">
+                <img class="card-img-top img-fluid" src="/images/Items/product/3.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <h4 class="p_name">Apple TV 32GB</h4>
+                   <h3 class="clr">Black</h3>
+                    <p class="price">$49.99</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 19rem;">
+                <img class="card-img-top img-fluid" src="/images/Items/product/2.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <h4 class="p_name">Apple TV 32GB</h4>
+                   <h3 class="clr">Black</h3>
+                    <p class="price">$49.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Second row -->
+          <div class="row product_gallery mx-auto my-4">
+            <div class="col-md-4">
+              <div class="card h-100" style="width: 19rem;">
+                <img class="card-img-top img-fluid" src="/images/Items/product/9.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <h4 class="p_name">Apple TV 32GB</h4>
+                   <h3 class="clr">Black</h3>
+                    <p class="price">$49.99</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card w-100 h-100">
+                <img class="card-img-top" src="/images/Items/product-charger.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <div class="row">
+                   <div class="col-6">
+                    <h4 class="card-title">JBL Charge 2 +</h4>
+                    <h5 class="clr">Black</h5>
+                   </div>
+                   <div class="col-6">
+                    <div class="btn-group mt-2">
+                      <button type="button" class="">16 GB</button>
+                      <button type="button" class="">BUY Now</button>
+                    </div>
+                   </div>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third Row -->
+          <div class="row product_gallery mx-auto">
+            <div class="col-md-4">
+              <div class="card" style="width: 19rem;">
+                <img class="card-img-top img-fluid" src="/images/Items/product/8.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <h4 class="p_name">Apple TV 32GB</h4>
+                   <h3 class="clr">Black</h3>
+                    <p class="price">$49.99</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 19rem;">
+                <img class="card-img-top img-fluid" src="/images/Items/product/4.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <h4 class="p_name">Apple TV 32GB</h4>
+                   <h3 class="clr">Black</h3>
+                    <p class="price">$49.99</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 19rem;">
+                <img class="card-img-top img-fluid" src="/images/Items/product--apple-watch.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <h4 class="p_name">Apple TV 32GB</h4>
+                   <h3 class="clr">Black</h3>
+                    <p class="price">$49.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Fourth Row -->
+          <div class="row product_gallery mx-auto my-4">
+            <div class="col-md-4">
+              <div class="card" style="width: 19rem;">
+                <img class="card-img-top img-fluid" src="/images/Items/product/5.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <h4 class="p_name">Apple TV 32GB</h4>
+                   <h3 class="clr">Black</h3>
+                    <p class="price">$49.99</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 19rem;">
+                <img class="card-img-top img-fluid" src="/images/Items/product/6.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <h4 class="p_name">Apple TV 32GB</h4>
+                   <h3 class="clr">Black</h3>
+                    <p class="price">$49.99</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 19rem;">
+                <img class="card-img-top img-fluid" src="/images/Items/product/7.jpg" alt="Card image cap">
+                <div class="card-body text-center">
+                  <h4 class="p_name">Apple TV 32GB</h4>
+                   <h3 class="clr">Black</h3>
+                    <p class="price">$49.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

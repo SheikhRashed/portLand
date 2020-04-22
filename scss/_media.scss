@@ -1,0 +1,27 @@
+@media (min-width: 1200px) {
+  .container_lg{
+    max-width: 1400px !important;
+  }
+}
+
+@media(max-width: 767px) {
+  .header_btm{
+    display: none;
+  }
+
+  .b-icon {
+    display: none;
+  }
+  .navbar-nav.cart_sign {
+    display: none;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  
+}
+
+
+@media(max-width: 1400px) {
+
+}
