@@ -33,8 +33,8 @@ $(function(){
     centerMode: true,
     prevArrow:'<span class="prev-arrow"><i class="fa fa-angle-left"></i></span>',
     nextArrow:'<span class="next-arrow"><i class="fa fa-angle-right"></i></span>',
-    centerPadding: '160px',
-    slidesToShow: 6,
+    centerPadding: '100px',
+    slidesToShow: 1,
     slideToScroll: 1,
     // responsive: [
     //   {

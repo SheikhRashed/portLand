@@ -18,6 +18,12 @@ header {
           color: #333;
           font-size: 14px;
           font-family: 'PT Sans_Bold';
+          transform: scale(1);
+          &:hover{
+            text-decoration: underline;
+            transform: scale(1.1);
+            transition: all 0.2s;
+          }
         }
       }
     }
@@ -25,7 +31,7 @@ header {
     .cart_sign {
       li {
         span {
-          padding: 8px;
+          padding: 10px 15px;
           border-radius: 50%;
           background-color: #e3e8f0;
           font-size: 14px;

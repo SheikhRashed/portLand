@@ -122,6 +122,87 @@ header .header_top .cart_sign li .myButton:active, #banner .bnnr_content .bnnr_t
   .navbar-nav {
     text-align: center;
   }
+  #banner {
+    padding: 60px 0px !important;
+  }
+  .phn-1 {
+    display: none !important;
+  }
+  .phn-2 {
+    display: block !important;
+    margin-left: auto;
+    height: 400px;
+  }
+  .slick-dots {
+    bottom: -60px;
+  }
+  #banner .bnnr_content .bnnr_text h2 {
+    font-size: 34px !important;
+  }
+  #banner .bnnr_content .bnnr_text p {
+    font-size: 12px !important;
+    padding-right: 10px !important;
+  }
+  #banner .bnnr_content .bnnr_text .bnnr_btn {
+    padding: 6px 36px !important;
+  }
+  #banner .bnnr_content .bnnr_text {
+    margin-top: 140px !important;
+  }
+  #short .container .dv-1::before {
+    display: none;
+  }
+  #short .container .dv-2::after {
+    display: none;
+  }
+  .Matching, #short .container .shiping {
+    margin: 0px 100px;
+  }
+  .key {
+    margin-right: 5px !important;
+  }
+  #short .container .g-2 {
+    margin: 0px 8px !important;
+  }
+  #short .container .g-2 span.price {
+    margin-right: 5px;
+  }
+  .custom-control-label {
+    font-size: 11px;
+  }
+  .shiping {
+    margin-top: 0 !important;
+  }
+  .left_side_bar {
+    margin-bottom: 30px;
+  }
+  .left_side_bar .sidebar-item {
+    position: relative !important;
+  }
+  .product_gallery .card {
+    margin: 20px auto;
+  }
+  #pagination .container .center .next-arrow::after {
+    content: '';
+    display: none;
+  }
+  #pagination .container .center .prev-arrow::after {
+    display: none;
+  }
+  #pagination .container .center .prev-arrow {
+    left: 0px !important;
+    color: #000;
+  }
+  #pagination .container .center .next-arrow {
+    right: 0px !important;
+    color: #000;
+  }
+}
+
+@media (min-width: 768px) {
+  .phn-2 {
+    display: none !important;
+  }
 }
 
 /* Basic Css */
@@ -171,10 +252,20 @@ header .header_top .navbar-nav .nav-item .nav-link {
   color: #333;
   font-size: 14px;
   font-family: 'PT Sans_Bold';
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+header .header_top .navbar-nav .nav-item .nav-link:hover {
+  text-decoration: underline;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 header .header_top .cart_sign li span {
-  padding: 8px;
+  padding: 10px 15px;
   border-radius: 50%;
   background-color: #e3e8f0;
   font-size: 14px;
@@ -414,6 +505,20 @@ header .header_btm .header_links .support {
   /* Optional: Style the caret down icon */
 }
 
+.left_side_bar .sidebar-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.left_side_bar .sidebar-item .make-me-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 173px;
+}
+
 .left_side_bar .sidenav {
   z-index: 1;
   background-color: #fff;
@@ -548,10 +653,6 @@ header .header_btm .header_links .support {
 
 /* LeftSide Bar part end */
 /* product_gallery part start */
-.product_gallery .card {
-  height: 100%;
-}
-
 .product_gallery .card .p_name {
   font-size: 18px;
   font-weight: bold;
@@ -645,6 +746,11 @@ header .header_btm .header_links .support {
   width: 2px;
   left: -150px;
   background-color: #5555;
+}
+
+#pagination .container .center li .slick-slide {
+  margin: auto;
+  width: 0;
 }
 
 #pagination .container .center li.slick-active {

@@ -189,7 +189,19 @@ body{
 .left_side_bar {
   padding: 0 !important;
 
-  
+  .sidebar-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    .make-me-sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 173px;
+    }
+  }
   /* Fixed sidenav, full height */
 .sidenav {
   z-index: 1;
@@ -331,7 +343,6 @@ body{
 /* product_gallery part start */
 .product_gallery {
   .card{
-    height: 100%;
 
     .p_name {
       font-size: 18px;
@@ -427,7 +438,10 @@ body{
       }
       
       li {
-       
+       .slick-slide {
+         margin: auto;
+         width: 0;
+       }
         &.slick-active{
           width: 34px !important;
           height: 34px !important;
